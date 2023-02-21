@@ -7,11 +7,11 @@ rm nsdomain
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=sedang.my.id
-SUB_DOMAIN=vpn-${sub}.sedang.my.id
-NS_DOMAIN=ns-${subsl}.sedang.my.id
-CF_ID=sshsedang@gmail.com
-CF_KEY=eaeddbd9e3cf97d4b889bd7fbae56b60bba63
+DOMAIN=zexsvpn.live
+SUB_DOMAIN=vpn-${sub}.zexsvpn.live
+NS_DOMAIN=ns-${subsl}.zexsvpn.live
+CF_ID=crackdawn16@gmail.com
+CF_KEY=8b1268e23ab6b05e33911a6f9f906e10100d9
 
 echo "IP=""$SUB_DOMAIN" >> /var/lib/ssnvpn-pro/subdomain.conf
 echo "$NS_DOMAIN" >> /root/nsdomain
